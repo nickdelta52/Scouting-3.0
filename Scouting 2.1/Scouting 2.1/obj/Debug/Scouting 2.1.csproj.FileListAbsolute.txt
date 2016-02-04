@@ -13,6 +13,9 @@ C:\Users\nickdelta52\Documents\Visual Studio 2015\Projects\Scouting 2.1\Scouting
 C:\Users\nickdelta52\Source\Repos\Scouting-3.0\Scouting 2.1\Scouting 2.1\bin\Debug\Scouting 2.1.exe.config
 C:\Users\nickdelta52\Source\Repos\Scouting-3.0\Scouting 2.1\Scouting 2.1\obj\Debug\Scouting 2.1.exe
 C:\Users\nickdelta52\Source\Repos\Scouting-3.0\Scouting 2.1\Scouting 2.1\obj\Debug\Scouting 2.1.pdb
-C:\Users\Jimmie\Source\Repos\Scouting-3.0\Scouting 2.1\Scouting 2.1\bin\Debug\Scouting 2.1.exe.config
-C:\Users\Jimmie\Source\Repos\Scouting-3.0\Scouting 2.1\Scouting 2.1\obj\Debug\Scouting 2.1.exe
-C:\Users\Jimmie\Source\Repos\Scouting-3.0\Scouting 2.1\Scouting 2.1\obj\Debug\Scouting 2.1.pdb
+C:\Users\nickdelta52\Source\Repos\Scouting-3.0\Scouting 2.1\Scouting 2.1\bin\Debug\Scouting 2.1.exe
+C:\Users\nickdelta52\Source\Repos\Scouting-3.0\Scouting 2.1\Scouting 2.1\bin\Debug\Scouting 2.1.pdb
+C:\Users\nickdelta52\Source\Repos\Scouting-3.0\Scouting 2.1\Scouting 2.1\obj\Debug\Scouting 2.1.csprojResolveAssemblyReference.cache
+C:\Users\nickdelta52\Source\Repos\Scouting-3.0\Scouting 2.1\Scouting 2.1\obj\Debug\Scouting_2._1.Form1.resources
+C:\Users\nickdelta52\Source\Repos\Scouting-3.0\Scouting 2.1\Scouting 2.1\obj\Debug\Scouting_2._1.Properties.Resources.resources
+C:\Users\nickdelta52\Source\Repos\Scouting-3.0\Scouting 2.1\Scouting 2.1\obj\Debug\Scouting 2.1.csproj.GenerateResource.Cache

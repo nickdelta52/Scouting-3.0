@@ -55,6 +55,8 @@
             this.tbMatchTeam = new System.Windows.Forms.TextBox();
             this.tbSort = new System.Windows.Forms.TabPage();
             this.tbSearch = new System.Windows.Forms.TabPage();
+            this.LBLPitComp = new System.Windows.Forms.Label();
+            this.cbPitComp = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.ptScout.SuspendLayout();
             this.ptMatch.SuspendLayout();
@@ -76,6 +78,8 @@
             // ptScout
             // 
             this.ptScout.BackColor = System.Drawing.Color.LightGray;
+            this.ptScout.Controls.Add(this.cbPitComp);
+            this.ptScout.Controls.Add(this.LBLPitComp);
             this.ptScout.Controls.Add(this.txtPitNote);
             this.ptScout.Controls.Add(this.LBLPitNote);
             this.ptScout.Controls.Add(this.txtPitSB);
@@ -188,7 +192,7 @@
             this.chkPitStartPos.Location = new System.Drawing.Point(241, 202);
             this.chkPitStartPos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chkPitStartPos.Name = "chkPitStartPos";
-            this.chkPitStartPos.Size = new System.Drawing.Size(152, 25);
+            this.chkPitStartPos.Size = new System.Drawing.Size(152, 46);
             this.chkPitStartPos.TabIndex = 10;
             // 
             // LBLPitStart
@@ -237,7 +241,7 @@
             this.chkPitGoals.Location = new System.Drawing.Point(241, 126);
             this.chkPitGoals.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chkPitGoals.Name = "chkPitGoals";
-            this.chkPitGoals.Size = new System.Drawing.Size(152, 25);
+            this.chkPitGoals.Size = new System.Drawing.Size(152, 46);
             this.chkPitGoals.TabIndex = 6;
             // 
             // LBLPitGoals
@@ -275,7 +279,7 @@
             this.chkPitDef.Location = new System.Drawing.Point(35, 126);
             this.chkPitDef.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chkPitDef.Name = "chkPitDef";
-            this.chkPitDef.Size = new System.Drawing.Size(153, 172);
+            this.chkPitDef.Size = new System.Drawing.Size(153, 193);
             this.chkPitDef.TabIndex = 3;
             // 
             // label1
@@ -372,6 +376,24 @@
             this.tbSearch.TabIndex = 3;
             this.tbSearch.Text = "Seach Team";
             // 
+            // LBLPitComp
+            // 
+            this.LBLPitComp.AutoSize = true;
+            this.LBLPitComp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.LBLPitComp.Location = new System.Drawing.Point(499, 15);
+            this.LBLPitComp.Name = "LBLPitComp";
+            this.LBLPitComp.Size = new System.Drawing.Size(103, 20);
+            this.LBLPitComp.TabIndex = 19;
+            this.LBLPitComp.Text = "Competition:";
+            // 
+            // cbPitComp
+            // 
+            this.cbPitComp.FormattingEnabled = true;
+            this.cbPitComp.Location = new System.Drawing.Point(608, 15);
+            this.cbPitComp.Name = "cbPitComp";
+            this.cbPitComp.Size = new System.Drawing.Size(121, 24);
+            this.cbPitComp.TabIndex = 20;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -421,6 +443,8 @@
         private System.Windows.Forms.Label lblMatchTeam;
         private System.Windows.Forms.TextBox tbMatchTeam;
         private System.Windows.Forms.ListBox lbMatchActions;
+        private System.Windows.Forms.ComboBox cbPitComp;
+        private System.Windows.Forms.Label LBLPitComp;
     }
 }
 
